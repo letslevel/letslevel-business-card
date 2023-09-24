@@ -2,7 +2,7 @@
 Contributors:      Joel Funk
 Tags:              block
 Tested up to:      6.3.2
-Stable tag:        0.0.9
+Stable tag:        1.0.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,4 +37,8 @@ Not really, but it's a good example.
 
 = 0.0.9 =
 * Remove unsported screenshots
+
+
+= 1.0.0 =
+* Update test
 
