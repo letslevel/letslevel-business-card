@@ -1,0 +1,1 @@
+html .wp-block-create-block-letslevel-business-card a:where(:not(.wp-element-button)){color:var(--link_color)!important;text-decoration:underline}html .wp-block-create-block-letslevel-business-card a:where(:not(.wp-element-button)):hover{color:var(--link_color)!important;text-decoration:none}

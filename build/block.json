@@ -1,0 +1,88 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/letslevel-business-card",
+  "version": "0.1.0",
+  "title": "Letslevel Business Card",
+  "category": "widgets",
+  "icon": "id",
+  "description": "Example block scaffolded with Create Block tool.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "image": {
+      "type": "string",
+      "default": "https://via.placeholder.com/150?text=Image"
+    },
+    "logo": {
+      "type": "string",
+      "default": "https://via.placeholder.com/300?text=Logo"
+    },
+    "name": {
+      "type": "string",
+      "default": "John Doe"
+    },
+    "company": {
+      "type": "string",
+      "default": "Example Company, Inc."
+    },
+    "title": {
+      "type": "string",
+      "default": "CEO"
+    },
+    "email": {
+      "type": "string",
+      "default": "example@email.com"
+    },
+    "phone": {
+      "type": "string",
+      "default": "+1 234 567 890"
+    },
+    "website": {
+      "type": "string",
+      "default": "https://example.com"
+    },
+    "address": {
+      "type": "string",
+      "default": "1234 Main St, City, State 12345"
+    },
+    "slogan": {
+      "type": "string",
+      "default": "Example Slogan"
+    },
+    "cta_text": {
+      "type": "string",
+      "default": "Call to Action"
+    },
+    "cta_link": {
+      "type": "string",
+      "default": "https://example.com"
+    },
+    "title_color": {
+      "type": "string",
+      "default": "indigo"
+    },
+    "text_color": {
+      "type": "string",
+      "default": "black"
+    },
+    "link_color": {
+      "type": "string",
+      "default": "purple"
+    },
+    "front_background_color": {
+      "type": "string",
+      "default": "white"
+    },
+    "back_background_color": {
+      "type": "string",
+      "default": "#e2e2e2"
+    }
+  },
+  "textdomain": "letslevel-business-card",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}
